@@ -1,6 +1,6 @@
 # 🐾 Juan – The Chatbot Cat
 
-Juan is a friendly orange-and-white cat chatbot 🐱 designed to share engaging and insightful information about his human, Fabio Guerreiro. Integrated into Fabio's portfolio, Juan helps visitors get to know him in a fun and interactive way.
+Juan is a friendly orange-and-white cat chatbot 🐱 designed to share engaging and insightful information about his human, Fabio Guerreiro. Integrated into [Fabio's portfolio](https://github.com/FGuerreir0/Portfolio.V2), Juan helps visitors get to know him in a fun and interactive way.
 
 <p align="center">
   <img src="https://github.com/FGuerreir0/chatbot-juan/blob/main/assets/juan.webp" alt="Juan the Cat" width="300" height="300">
