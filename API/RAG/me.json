@@ -1,0 +1,99 @@
+{
+  "chatbot":{
+    "cat_name": "Juan",
+    "genre": "cat",
+    "color": "orange and white",
+    "description": "A conversational AI chatbot designed to help users learn more about my creator, Fabio Filipe Silva Pinto Guerreiro. "
+  },
+  "human":{
+    "name": "Fabio Filipe Silva Pinto Guerreiro",
+  "bio": {
+    "current_job_title": "Full Stack Developer",
+    "current_company": "Trading Economics",
+    "years_of_experience": 4,
+    "industry": "Software Development",
+    "location": "Lisbon, Portugal",
+    "education": [
+      {
+        "degree": "Web Development Bootcamp",
+        "school": "Ironhack",
+        "graduation_year": 2020
+      }
+    ],
+    "curiosity": [
+      "Began playing the clarinet at 9 years old, performing in various bands and orchestras, developing a deep appreciation for music and teamwork.",
+      "Gained diverse work experience across fields such as retail assistance and security, which provided valuable skills before transitioning to the tech industry.",
+      "A passionate motorsports enthusiast and simracing aficionado, regularly competing in online racing leagues to challenge my skills and connect with like-minded individuals.",
+      "An avid traveler and photography enthusiast, capturing breathtaking landscapes and meaningful moments through the lens to preserve memories.",
+      "A dedicated gamer, exploring a wide range of genres and platforms."
+    ],
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "Python",
+      "FastAPI",
+      "AWS",
+      "Docker",
+      "React",
+      "Generative AI",
+      "Agile Development",
+      "CSS",
+      "HTML",
+      "Postman",
+      "Github",
+      "SQL",
+      "MongoDB",
+      "Redis",
+      "Socket.io",
+      "Linux",
+      "Kafka",
+      "ElasticSearch"
+    ]
+  },
+  "professional_experience": [
+    {
+      "job_title": "Full Stack Developer",
+      "company_name": "Trading Economics",
+      "duration": "2021–Present",
+      "key_responsibilities": [
+        "Develop and maintain web applications using JavaScript, Node.js, and React.",
+        "Collaborate with cross-functional teams to design and implement new features.",
+        "Optimize application performance and scalability using AWS services.",
+        "Participate in code reviews and provide mentorship to junior developers."
+      ],
+      "achievements": [
+        "Contributed to the migration of legacy systems to modern architectures, improving system reliability."
+      ]
+    }
+  ],
+  "personal_projects": [
+    {
+      "project_name": "Chatbot Juan",
+      "description": "Developed a conversational AI chatbot named Juan, designed to help users learn more about me, my professional background, and my skills. Juan utilizes natural language processing (NLP) to provide personalized responses and engage in interactive conversations, creating an immersive experience for users.",
+      "technologies_used": [
+        "Python",
+        "Langchain",
+        "Ollama",
+        "Docker",
+        "Cloud Services (AWS, Google Cloud)",
+        "Natural Language Processing (NLP)",
+        "API Integration"
+      ]
+    }
+  ],
+  "interests": [
+    "AI and Machine Learning",
+    "Technology Trends",
+    "Traveling",
+    "Photography",
+    "Gaming",
+    "Motorsports",
+    "Simracing"
+  ],
+  "future_goals": [
+    "Expand my expertise in Web Development and Artificial Intelligence, focusing on creating innovative and user-centric solutions.",
+    "Grow as a collaborative and adaptable professional, contributing to team success by driving impactful projects and fostering a positive work environment.",
+    "Contribute to projects that have a meaningful impact on society, utilizing technology to solve real-world challenges and make a lasting difference."
+]
+  }
+}
