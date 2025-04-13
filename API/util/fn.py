@@ -79,7 +79,7 @@ def Start_LLM():
     try:
         global llm, retriever
         llm = Ollama(model="llama3.1", base_url="http://host.docker.internal:11434", verbose=True)
-        retriever = start_rag("./RAG/me.json", ".chatbot, .human")
+        retriever = start_rag("./rag/info.json", ".chatbot, .human")
         return
     except Exception as e:
         logger.error(f"Error starting LLM: {e}")
