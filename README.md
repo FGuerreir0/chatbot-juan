@@ -52,7 +52,7 @@ body:
 
 ## 📎 Notes
 
-- Make sure you have Ollama running locally.
+- Make sure you have Ollama running locally - (https://hub.docker.com/r/ollama/ollama)
 - LangChain + RAG is used to fetch and ground responses using a knowledge base about Fabio.
 - The chatbot try to avoid adding unnecessary info and responds directly based on user questions.
 
