@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8051:8051"
+    depends_on:
+      - ollama
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434  # or any env your app needs
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-juan:/root/.ollama
+    command: ["bash", "-c", "ollama pull nomic-embed-text && /bin/bash"]
+
+volumes:
+  ollama-juan:
