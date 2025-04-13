@@ -1,8 +1,3 @@
-#docker build -t juan .  
-#docker run -d -p 8051:8051 juan
-#docker run juan
-#Request: http://localhost:8051/juan/chat
-
 FROM python:3.12
 
 WORKDIR /API
