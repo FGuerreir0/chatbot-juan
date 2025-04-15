@@ -1,10 +1,30 @@
+
 # 🐾 Juan – The Chatbot Cat
 
-Juan is a friendly orange-and-white cat chatbot 🐱 designed to share engaging and insightful information about his human, Fabio Guerreiro. Integrated into [Fabio's portfolio](https://github.com/FGuerreir0/Portfolio.V2), Juan helps visitors get to know him in a fun and interactive way.
+Juan is a friendly orange-and-white cat chatbot 🐱 designed to share engaging and insightful information about the world and his human, Fabio Guerreiro. 
+- Integrated into [Fabio's portfolio](https://github.com/FGuerreir0/Portfolio.V2), Juan helps visitors get to know him in a fun and interactive way.
+- As a general-purpose chatbot at [chatbot-juan.vercel.app](https://chatbot-juan.vercel.app/) showcasing the power of LLM and TTS
 
 <p align="center">
   <img src="https://github.com/FGuerreir0/chatbot-juan/blob/main/assets/juan.webp" alt="Juan the Cat" width="300" height="300">
 </p>
+
+---
+
+# 🐾 Vercel App
+
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/chatbot-juan?name=Vercel)
+
+Deployed at: [chatbot-juan.vercel.app](https://chatbot-juan.vercel.app/)
+
+Powered by:
+
+🧬 Next.js – the React framework for building and deploy fast and scalable web apps
+
+
+---
+
+# 🐾 API
 
 Powered by:
 - 🐍 Python – the core language used to build Juan
