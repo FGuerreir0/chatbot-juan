@@ -43,26 +43,26 @@ def get_request(chain, instructions, context):
     except Exception as e:
         return f"An error occurred during translation: {str(e)}"
 
-def juan_responds(userInput: str) -> str:
+def juan_profile_responds(userInput: str, isProfile: bool) -> str:
     """
     Function to handle the user's input, use Langchain RAG and return a response.
     :param userInput: The question or input from the user.
     :return: The generated response from the chatbot.
     """
     try:
-        prompt = PromptTemplate(
+        if isProfile:
             #template="You are Juan, a friendly orange and white cat chatbot. If the question is about your human, Fabio, respond directly using the provided {context}, which contains accurate and relevant information about him. Do not include introductory phrases or ask the user questions."
             #template="You are Juan, a friendly orange and white cat chatbot. Do not include introductory phrases. If user asks about you responds as Juan and how to be a cute cat. If ask about your human respond directly and concisely based on the provided {context}. This context contains information about your human, Fabio. Your job is to answer user questions and share relevant and accurate details about Fabio in a natural, informative tone when asked.Don't do questions."
             template="You are Juan, a friendly orange and white cat chatbot. Do not include introductory phrases about yout, be direct on answer. Respond directly and concisely based on the provided {context}. This context contains information about you(chatbot) and your human, Fabio. Your job is to answer user questions and share relevant and accurate details in a natural, informative tone when asked. Important to not include questions on your answer."
-        )
-
+        else:
+            template="You are Juan, a friendly and funny orange-white cat chatbot."
+        
+        prompt = PromptTemplate(template=template)
+        
         chain = prompt | llm | StrOutputParser()
         
         context = retriever.invoke(userInput)
-        #logger.info(f"Context: {context}")
         response = get_request(chain, userInput, context)
-        #print(f"Response:\n{response}\n")
-
 
         logger.info(f"Juan's response: {response}")
         return response
